@@ -1,7 +1,7 @@
 :root {
   --primary-color: #E4DDD7;
   --secondary-color:#272142;
-  --branding-color:#6C63FF;
+  --branding-color: #9D5138;
   --heading-font-family:"Playfair Display", serif ;
   --default-font-family:"Poppins", sans-serif;
 }
@@ -20,13 +20,7 @@ p {
   font-weight: normal;
 }
 
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
+
 
 .primary-logo {
   width: 50px;
@@ -70,15 +64,39 @@ p {
   background: #fff;
 }
 
-.nav-link, .navbar-brand {
-  font-size: 30px;
+.navbar {
+    background-color: #fff;
+
+}
+  
+.btn-branding-outline {
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 30px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: var(--branding-color);
+  border-radius: 30px;
+  
+}
+
+.project-descriptions {
+  padding: 120px 60px;
+}
+
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 39px;
+    line-height: 1.5;
   }
-
-
-
-@media (max-width:900px) {
-  .nav-link, .navbar-brand {
-    font-size: 16px;
+  h2 {
+    font-size: 44px;
+  }
+ 
+  .project-descriptions {
+    padding: 0;
+    text-align: center;
   }
   
 }
