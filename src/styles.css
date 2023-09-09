@@ -10,15 +10,30 @@
   padding-top: 60px;
  }
 
+ h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  color: #000;
+}
+
 h1 {
-  font-family: var(--heading-font-family) ;
   font-size: 96px;
-  font-weight: 700;
-  color: black;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+
+h4 {
+  font-size: 48px;
 }
 
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .primary-logo {
@@ -91,6 +106,51 @@ p {
 .about-paragraphs p {
   margin: 10px;
 }
+
+footer .contact-box {
+  background-color: var(--primary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--primary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 0;
+  transition: bottom 0.5s ease;
+   
+}
+
+footer .social-links a:hover {
+  color: #fff;
+  background-color: var(--branding-color);
+  bottom: 10px;
+}
+
+
 
 .email-link {
   display: flex;
