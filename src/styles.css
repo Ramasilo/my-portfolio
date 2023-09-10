@@ -67,6 +67,7 @@ p {
 .btn-branding {
   background: #fff ;
   color: #BD8871;
+  border-color: #BD8871;
   font-size: 18px;
   line-height: 27px;
   padding: 18px 50px;
@@ -138,7 +139,6 @@ p {
 }
 
 
-
 footer .contact-box {
   margin-top: 200px;
   background-color: var(--primary-color);
@@ -183,7 +183,15 @@ footer .social-links a:hover {
   bottom: 10px;
 }
 
+.background {
+  outline: 2px solid black;
+  background-image: url("../images/flower.jpg");
+  
+  background-size: 10%;
+  background-position: bottom left;
 
+  
+}
 
 .email-link {
   display: flex;
@@ -198,9 +206,9 @@ footer .social-links a:hover {
 }
 
 .flower-image {
-  width: 350px;
+  width: 150px;
   margin-left: 10px;
-  margin-top: -400px;
+  margin-top: -900px;
   mix-blend-mode: multiply;
 }
 
