@@ -79,6 +79,9 @@ p {
 }
 .hero-upper svg {
   background: #fff;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .navbar {
@@ -220,6 +223,7 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
+  
  
   .project-descriptions {
     padding: 0;
